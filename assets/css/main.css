@@ -20,6 +20,14 @@
 	flex-direction: column;
 } */
 
+@media (max-width: 600px) {
+	.grid-container {
+		display: grid;
+		grid-template-columns: auto;
+		grid-template-rows: auto auto;
+	  }
+  }
+
 .grid-container {
 	display: grid;
 	grid-template-columns: auto auto;
