@@ -67,31 +67,37 @@
 							style="color:rgb(10, 155, 27); animation: typing 2s steps(13, end), blink-caret 0.5s step-end infinite alternate;">FoodPrints</span>,
 						a one page chart to visualise and play<br />
 						with the <span
-						style="color:rgb(10, 155, 27); animation: typing 2s steps(13, end), blink-caret 0.5s step-end infinite alternate;">environmental impact of <a href="http://html5up.net">food</a></span>.
+							style="color:rgb(10, 155, 27); animation: typing 2s steps(13, end), blink-caret 0.5s step-end infinite alternate;">environmental
+							impact of <a href="http://html5up.net">food</a></span>.
 					</h1>
 				</header>
 				<section class="grid-container">
-					<div class="grid-item Checkbox1" id="observablehq-viewof-checkboxes-8ee000aa"></div>
-					<div class="grid-item Checkbox2" id="observablehq-viewof-selected_categories-8ee000aa"></div>
-					<div class="grid-item MainGraph" id="observablehq-graph1-16768e68"></div>
-					<div class="grid-item Graph2" id="observablehq-graph2-16768e68"></div>
-					<div class="grid-item Graph3" id="observablehq-graph3-16768e68"></div>
-					<div class="grid-item Graph4" id="observablehq-graph4-16768e68"></div>
+					<div class="grid-item Checkbox1" id="observablehq-viewof-checkboxes-6f433010"></div>
+					<div class="grid-item Checkbox2" id="observablehq-viewof-selected_categories-6f433010"></div>
+					<div class="grid-item MainGraph" id="observablehq-graph1-6f433010"></div>
+					<div class="grid-item Graph2" id="observablehq-graph2-6f433010"></div>
+					<div class="grid-item Graph3" id="observablehq-graph3-6f433010"></div>
+					<div class="grid-item Graph4" id="observablehq-graph4-6f433010"></div>
 				</section>
 
 
-				<link rel="stylesheet"
-					href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css" />
+				<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
 				<script type="module">
 					import { Runtime, Inspector } from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
-					import define from "https://api.observablehq.com/d/57607d626b3a0e58@966.js?v=3";
-					new Runtime().module(define, (name) => {
-						if (name === "viewof checkboxes") return new Inspector(document.querySelector("#observablehq-viewof-checkboxes-8ee000aa"));
-						if (name === "graph1") return new Inspector(document.querySelector("#observablehq-graph1-16768e68"));
-						if (name === "viewof selected_categories") return new Inspector(document.querySelector("#observablehq-viewof-selected_categories-8ee000aa"));
-						if (name === "graph2") return new Inspector(document.querySelector("#observablehq-graph2-16768e68"));
-						if (name === "graph3") return new Inspector(document.querySelector("#observablehq-graph3-16768e68"));
-						if (name === "graph4") return new Inspector(document.querySelector("#observablehq-graph4-16768e68"));
+					import define from "https://api.observablehq.com/d/57607d626b3a0e58@989.js?v=3";
+					new Runtime().module(define, name => {
+						if (name === "viewof checkboxes") return new
+							Inspector(document.querySelector("#observablehq-viewof-checkboxes-6f433010"));
+						if (name === "graph1") return new
+							Inspector(document.querySelector("#observablehq-graph1-6f433010"));
+						if (name === "viewof selected_categories") return new
+							Inspector(document.querySelector("#observablehq-viewof-selected_categories-6f433010"));
+						if (name === "graph2") return new
+							Inspector(document.querySelector("#observablehq-graph2-6f433010"));
+						if (name === "graph3") return new
+							Inspector(document.querySelector("#observablehq-graph3-6f433010"));
+						if (name === "graph4") return new
+							Inspector(document.querySelector("#observablehq-graph4-6f433010"));
 						return ["test", "BarPlot"].includes(name);
 					});
 				</script>
