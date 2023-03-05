@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <!--
-	Foodprint dataviz
+	Foodprint dataviz project on climate change
 -->
 <html>
 
@@ -49,6 +49,12 @@
 				<li>
 					<a href="https://observablehq.com/d/57607d626b3a0e58@950">ObservableHQ Page</a>
 				</li>
+				<li>
+					<a href="https://www.linkedin.com/in/arthur-naudy/">About Arthur</a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/in/edmond-verdier-63791a1a7/">About Edmond</a>
+				</li>
 				<!-- <li><a href="elements.html">Elements</a></li> -->
 			</ul>
 		</nav>
@@ -65,19 +71,12 @@
 					</h1>
 				</header>
 				<section class="grid-container">
-					<div class="grid-item Checkbox1" id="observablehq-viewof-checkboxes-16768e68"></div>
-					<div class="grid-item Checkbox2" id="observablehq-viewof-selected_categories-16768e68"></div>
+					<div class="grid-item Checkbox1" id="observablehq-viewof-checkboxes-8ee000aa"></div>
+					<div class="grid-item Checkbox2" id="observablehq-viewof-selected_categories-8ee000aa"></div>
 					<div class="grid-item MainGraph" id="observablehq-graph1-16768e68"></div>
 					<div class="grid-item Graph2" id="observablehq-graph2-16768e68"></div>
 					<div class="grid-item Graph3" id="observablehq-graph3-16768e68"></div>
 					<div class="grid-item Graph4" id="observablehq-graph4-16768e68"></div>
-
-					<!-- <div class="grid-item item1" id="observablehq-graph1-69c7e226"></div>
-				  <div class="grid-item item2" id="observablehq-graph2-69c7e226"></div>
-				  <div class="grid-item item3" id="observablehq-graph3-69c7e226"></div>
-				  <div class="grid-item item4" id="observablehq-graph4-69c7e226"></div>
-				  <div class="grid-item item5" id="observablehq-viewof-checkboxes-69c7e226"></div>
-				  <div class="grid-item item6" id="observablehq-viewof-selected_categories-4929f5f4"></div> -->
 				</section>
 
 
@@ -87,9 +86,9 @@
 					import { Runtime, Inspector } from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
 					import define from "https://api.observablehq.com/d/57607d626b3a0e58@966.js?v=3";
 					new Runtime().module(define, (name) => {
-						if (name === "viewof checkboxes") return new Inspector(document.querySelector("#observablehq-viewof-checkboxes-16768e68"));
+						if (name === "viewof checkboxes") return new Inspector(document.querySelector("#observablehq-viewof-checkboxes-8ee000aa"));
 						if (name === "graph1") return new Inspector(document.querySelector("#observablehq-graph1-16768e68"));
-						if (name === "viewof selected_categories") return new Inspector(document.querySelector("#observablehq-viewof-selected_categories-16768e68"));
+						if (name === "viewof selected_categories") return new Inspector(document.querySelector("#observablehq-viewof-selected_categories-8ee000aa"));
 						if (name === "graph2") return new Inspector(document.querySelector("#observablehq-graph2-16768e68"));
 						if (name === "graph3") return new Inspector(document.querySelector("#observablehq-graph3-16768e68"));
 						if (name === "graph4") return new Inspector(document.querySelector("#observablehq-graph4-16768e68"));
@@ -123,20 +122,24 @@
 					</form>
 				</section>
 				<section>
-					<h2>Follow</h2>
+					<h2>Follow us</h2>
 					<ul class="icons">
-						<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a>
+						<li>
+							<a href="https://github.com/ArthurNdy/FoodInsights.github.io"
+								class="icon brands style2 fa-github"><span class="label">GitHub</span></a>
 						</li>
-						<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a>
+						<li>
+							<a href="mailto:arthur.naudy@ecl19.ec-lyon.fr" class="icon solid style2 fa-envelope"><span
+									class="label">Email</span></a>
 						</li>
-						<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a>
+						<li>
+							<a href="https://www.linkedin.com/in/arthur-naudy/"
+								class="icon style2 brands fa-linkedin"><span class="label">LinkedIn Arthur</span></a>
 						</li>
-						<li><a href="#" class="icon brands style2 fa-dribbble"><span class="label">Dribbble</span></a>
+						<li>
+							<a href="https://www.linkedin.com/in/edmond-verdier-63791a1a7/"
+								class="icon style2 brands fa-linkedin"><span class="label">LinkedIn Edmond</span></a>
 						</li>
-						<li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
-						<li><a href="#" class="icon brands style2 fa-500px"><span class="label">500px</span></a></li>
-						<li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
-						<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
 				</section>
 				<ul class="copyright">
