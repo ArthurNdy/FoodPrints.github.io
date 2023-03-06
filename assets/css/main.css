@@ -22,35 +22,39 @@
 
 .grid-container {
 	display: grid;
-	grid-template-columns: auto auto;
+	grid-template-columns: 50% 50%;
 	grid-template-rows: auto auto auto auto auto;
 	/* height: 70vh; */
   }
 
   .MainGraph {
-	padding: 1px;
+	padding-top: 10px;
 	background-color: #00000010;
 	grid-column: 1;
 	grid-row: 2;
   }
 
   .Legend1 {
-	padding: 10px;
+	padding-top: 10px;
+	padding-inline: 10px;
 	background-color: #00000010;
   }
   
   .Graph2 {
+	padding-top: 10px;
 	grid-column: 2;
 	grid-row: 3;
   }
 
   .Legend2 {
+	padding-top: 10px;
 	grid-column: 1;
 	grid-row: 3;
 	padding-inline: 4em;
   }
 
   .Graph3 {
+	padding-top: 10px;
 	grid-column: 1;
 	grid-row: 4;
 	padding: 10px;
@@ -58,6 +62,7 @@
   }
 
   .Legend3 {
+	padding-top: 10px;
 	grid-column: 2;
 	grid-row: 4;
 	padding-inline: 4em;
@@ -66,11 +71,13 @@
 
 
   .Graph4 {
+	padding-top: 10px;
 	grid-column: 2;
 	grid-row: 5;
   }
 
   .Legend4 {
+	padding-top: 10px;
 	grid-column: 1;
 	grid-row: 5;
 	padding-inline: 4em;	
