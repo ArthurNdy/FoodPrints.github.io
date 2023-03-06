@@ -47,8 +47,7 @@
   .Legend2 {
 	grid-column: 1;
 	grid-row: 3;
-	text-align: left;
-	padding: 10px;
+	padding-inline: 4em;
   }
 
   .Graph3 {
@@ -61,8 +60,7 @@
   .Legend3 {
 	grid-column: 2;
 	grid-row: 4;
-	text-align: left;
-	padding: 10px;
+	padding-inline: 4em;
 	background-color: #00000010;
   }
 
@@ -75,8 +73,7 @@
   .Legend4 {
 	grid-column: 1;
 	grid-row: 5;
-	text-align: left;
-	padding: 10px;
+	padding-inline: 4em;	
   }
 
   .Checkbox1 {
