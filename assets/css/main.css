@@ -20,6 +20,23 @@
 	flex-direction: column;
 } */
 
+#intro-text {
+	animation-duration: 1s;
+	animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+	from {
+	  margin-left: 100%;
+	  width: 100%;
+	}
+  
+	to {
+	  margin-left: 0%;
+	  width: 100%;
+	}
+  }
+  
 @media screen and (max-width: 1000px) {
 
 	.grid-container {
@@ -3044,7 +3061,7 @@ input, select, textarea {
 
 				#header nav ul li {
 					display: block;
-					padding: 0;
+					padding: 1em;
 				}
 
 					#header nav ul li a {
