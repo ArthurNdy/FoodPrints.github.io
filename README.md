@@ -11,16 +11,16 @@ The purpose of the Foodprints app is to help users understand the overall impact
 ## Features
 The Foodprints app has several features that allow users to interact with the data and explore different aspects of the environmental impact of food. These features include:
 
-* Interactive Charts: 
+* **Interactive Charts**: 
 The app features several interactive charts that allow users to explore the environmental impact of different food items. Users can filter the data by food group, and life cycle steps to get a better understanding of the impact of different foods.
 
-* Data Tables: 
+* **Data Tables**: 
 Users can also explore the data in a table format, which provides more detailed information about the environmental impact of each food item.
 
-* My Plate (coming soon): 
+* **My Plate (coming soon)**: 
 The My Plate feature allows users to see the environmental impact of their own food choices. Users can add food items to their plate and see the cumulative impact on the environment.
 
-* Resources: 
+* **Resources**: 
 The app also provides resources for users who want to learn more about the environmental impact of food and how they can reduce their own impact.
 
 ## Technologies Used
