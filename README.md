@@ -7,7 +7,7 @@ Welcome to Foodprints, an interactive data visualization app that explores the e
 
 <img width="1452" alt="image" src="https://github.com/user-attachments/assets/6689a508-2a19-4c50-be29-d4b5bcf1a735" />
 
-![demo](https://github.com/user-attachments/assets/faf7ad4c-3356-44ca-a787-e1c2c44db6bf)
+<img width="1452" alt="image" src="https://github.com/user-attachments/assets/faf7ad4c-3356-44ca-a787-e1c2c44db6bf" />
 
 ## Purpose
 The purpose of the Foodprints app is to help users understand the overall impact of food items on the environment. We focused our work on deconstructing common misconceptions about the environmental impact of food, such as the belief that consuming local products is better for the environment. Through our research, we learned that eating seasonal food is much more important than local food for the environment.
