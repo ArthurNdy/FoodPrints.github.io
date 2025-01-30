@@ -1,6 +1,6 @@
 # Foodprints App Read Me
 
->>> Open [Foodprints]([url](https://arthurndy.github.io/FoodPrints.github.io/)) <<<
+Open [Foodprints]([url](https://arthurndy.github.io/FoodPrints.github.io/))
 
 ### By Edmond Verdier & Arthur Naudy
 Welcome to Foodprints, an interactive data visualization app that explores the environmental impact of food items. This app is the final project of a lesson about data visualization given at Ecole Centrale de Lyon. Our objective was to create an interactive visualization from scratch using D3 (JavaScript) and Observable Notebooks on the topic "Climate Change".
