@@ -3,6 +3,8 @@
 ### By Edmond Verdier & Arthur Naudy
 Welcome to Foodprints, an interactive data visualization app that explores the environmental impact of food items. This app is the final project of a lesson about data visualization given at Ecole Centrale de Lyon. Our objective was to create an interactive visualization from scratch using D3 (JavaScript) and Observable Notebooks on the topic "Climate Change".
 
+<img width="1452" alt="image" src="https://github.com/user-attachments/assets/6689a508-2a19-4c50-be29-d4b5bcf1a735" />
+
 ## Purpose
 The purpose of the Foodprints app is to help users understand the overall impact of food items on the environment. We focused our work on deconstructing common misconceptions about the environmental impact of food, such as the belief that consuming local products is better for the environment. Through our research, we learned that eating seasonal food is much more important than local food for the environment.
 
